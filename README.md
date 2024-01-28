@@ -6,6 +6,15 @@ It is important that credit card companies are able to recognize fraudulent cred
 The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 We have to build a classification model to predict whether a transaction is fraudulent or not.
 
+- Notebook folder includes the ipynb notebook including Exploratory data analysis and model building.
+- visuals folder includes the graphs and visualizations about the data
+- data includes the dataset for the model
+- model folder includes the .pkl file
+- FindDefault_Report is the detailed report about the machine learning model building process in the report format.
+
+
+
+
 ## Data Exploration
 To protect the user's identity and the security of their confidential information, the dataset 
 provider has applied Principal Component Analysis transformation on the original numerical 
